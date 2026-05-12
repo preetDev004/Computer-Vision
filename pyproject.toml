@@ -1,7 +1,7 @@
 [project]
-name = "basics"
+name = "cv"
 version = "0.1.0"
-description = "Add your description here"
+description = "DPS920 - Computer vision"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
