@@ -34,7 +34,7 @@ def get_trackbar_values(window_name="Trackbars"):
 def segmented_image(image, mask):
     return cv2.bitwise_and(image, image, mask=mask)
 
-def detector(path="./color-detection/car.jpg"):
+def detector(path="./car.jpg"):
     # Load the image once before the loop starts
     img, hsv = img_and_hsv(path)
     
